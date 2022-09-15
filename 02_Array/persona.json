@@ -1,0 +1,8 @@
+{
+    "nombre": "Eduardo",
+    "edad": "32",
+    "musica":{
+        "Rock": "Pesado",
+        "Cumbia":"Colombiana"
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title id="e">Hola mundo</title>
+</head>
+<body>
+     <div id="titulo">
+        <h1 id="titulo">Ordena tu pizza</h1>
+     </div>
+     <div id="orden">
+        <div class="hOrden">
+            <label for="nombre">Nombre</label>
+            <input  type="text" name="nombre" id="nombre">
+        </div>
+        <div class="hOrden">
+            <label for="direccion">direccion</label>
+            <input  type="text" name="direccion" id="direccion">
+        </div>
+        <div class="hOrden">
+            <label for="pizza">Pizza</label>
+            <input  type="text" name="pizza" id="pizza">
+        </div>
+        <div class="hOrden">
+            <button id="boton">Enviar</button>
+        </div>
+     </div>
+     <div id="resultado">
+        <div class="hresultado">
+            <div id="hawallana" style="display: none;">
+                <p>Hawaiana</p>
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/como-hacer-pizza-hawaiana.jpg" alt="">
+                <p>Nombre:</p>
+                <p id="nombreh"></p>
+                <p>Dirección:</p>
+                <p id="direccionh"></p>
+            </div>
+        </div>
+        <div class="hresultado">
+            <div id="peperoni"  style="display: none;">
+                <p>Peperoni</p>
+                <img src="https://placeralplato.com/files/2016/01/Pizza-con-pepperoni-640x480.jpg?width=1200&enable=upscale" alt="">
+                <p>Nombre:</p>
+                <p id="nombrep"></p>
+                <p>Dirección:</p>
+                <p id="direccionp"></p>
+            </div>
+        </div>
+     </div>
+    
+     <p id="respuesta"></p>
+
+   
+<script src="main.js"></script>
+</body>
+</html>

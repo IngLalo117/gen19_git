@@ -1,0 +1,57 @@
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+#titulo{
+    width: 90%;
+    height: 10%;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#orden{
+    width: 50%;
+    height: 40%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hOrden{
+    background-color: white;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#resultado{
+    width: 50%;
+    height: 40%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hresultado{
+    background-color: white;
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
