@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Cajero</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <div>
+                <img src="./img/bankk.png" alt="">
+            </div>
+            <div>
+                <p id="depo">Deposita</p>
+            </div>
+            <div>
+                <p id="ret">Retira</p>
+            </div>
+            <div>
+                <p id="transfer">Transferencia</p>
+            </div>
+        </div>
+        <div class="cuerpo">
+            <div class="saldo"></div>
+            <div  class="deposita" id="depositas">
+                <label for="nombre">Ingresa Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="monto">Ingresa Monto</label>
+                <input type="number" name="monto" id="monto">
+                <button>Depositar</button>
+
+            </div>
+            <div class="retira" id="retir">
+                <label for="nombre">Retira una cantidad</label>
+                <button>$100</button>
+                <button>$200</button>
+                <button>$500</button>
+                <button>$1000</button>
+                <button>$2000</button>
+                <button>$5000</button>
+
+            </div>
+            <div class="transferencia" id="tra">
+                <label for="trans">Ingresa Nombre del beneficiario</label>
+                <input type="text" name="trans" id="trans">
+                <label for="monto">Ingresa Monto</label>
+                <input type="number" name="monto" id="monto">
+                <button>Trnasferir</button>
+
+            </div>
+            <div class="saldo">
+                <Label id="sal">Tu saldo actual es:</Label>
+                <input type="number" name="saldo" id="saldo" disabled>
+            </div>
+        </div>
+        <div class="pie"></div>
+    </div>
+   
+   
+<script src="main.js"></script>
+</body>
+</html>

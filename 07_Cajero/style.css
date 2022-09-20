@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: rgb(1, 1, 61);
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+}
+.titulo{
+    background-color: midnightblue;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 75px;
+    height: 45px;
+}
+.deposita{
+    background-color: blue;
+    width: 33%;
+    height: 90%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    
+}
+
+.retira{
+    background-color: blue;
+    width: 33%;
+    height: 90%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    display:none;
+    
+    
+}
+
+.transferencia{
+    background-color: blue;
+    width: 33%;
+    height: 90%;
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    display:none;
+    
+    
+}
+.saldo{
+    width: 33%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sal{
+    color: black;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+input{
+    width: 80%;
+    height: 5%;
+}
+button{
+    width: 50%;
+    height: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+.cuerpo{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie{
+    background-color: midnightblue;
+    width: 100%;
+    height: 11%;
+}
