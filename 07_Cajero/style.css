@@ -114,3 +114,26 @@ button{
     width: 100%;
     height: 11%;
 }
+
+input{
+    text-align: center;
+    font-size: 24px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
+#mov12{
+    display: none;
+}
+
+#mo1{
+    display: none;
+}
+#etiq{
+    display: none;
+}
+
+#nameTr{
+    display: none;
+}
