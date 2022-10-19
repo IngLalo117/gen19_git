@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 8%;
+    display: flex;
+   align-items: center;
+
+}
+
+.hijos1{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    width: 90%;
+    height: 70%;
+}
+
+.hijos2{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.hijos3{
+    width: 8%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijos4{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(194, 194, 194);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#lupa{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#lupaim{
+    width: 50%;
+    height: 50%;
+}
+
+
+#input{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#buscar{
+    width: 100%;
+    height: 80%;
+    border-style: none;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+}
+
+.hijos5{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+}
+#boton{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: rgb(236, 236, 236);
+}
+
+.hijos6{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;   
+}
+#boton2{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    border-style: none;
+   color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: red;
+    
+}
+
+.hijos7{
+    width: 4%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    border-radius: 20px;   
+}
+#felcha{
+    width: 25%;
+    height: 25%;
+}
+
+.tipo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+   align-items: center;  
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+#conten_ico{
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+#icono{
+    width: 20%;
+    height: 100%; 
+    border-radius: 50%;
+}
+#vista{
+    width: 80%;
+    height: 100%;
+    
+}
+.conDos{
+    /* background-color: aquamarine; */
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content:flex-end;
+    margin-top: 5%;
+}
+.tipo0{
+    /* background-color: rgb(226, 43, 43); */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.tipo1{
+    /* background-color: rgb(203, 203, 203); */
+    width: 70%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nombre{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#instagram{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 8%;
+}
+#datos_{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botonera{
+    display: flex;
+    width: 15%;
+    height: 15%;
+    align-items: center;
+    justify-content: center;
+}
+#flecha_i{
+    width: 50%;
+    height: 50%;
+}
+#bo_{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#flecha_{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#botonS{
+    width: 80%;
+    height: 70%;
+    border-radius: 30px;
+    border-style: none;
+   color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: red;
+}
+
+
+img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* .texto{
+    background-color: beige;
+
+} */
+
+.fila{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+.columnaImg{
+    flex: 12.5%;
+    padding: 5px;
+}
+
+.columnaImg img{
+ margin-top: 5px;   
+}
+
+@media (max-width: 980px){
+    .columnaImg{
+        flex: 25%;
+    }
+}
+
+@media (max-width: 800px){
+    .columnaImg{
+        flex: 33.3%;
+    }
+}
+
+@media (max-width: 600px){
+    .columnaImg{
+        flex: 100%;
+    }
+}
